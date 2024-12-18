@@ -1,0 +1,17 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "A GraphQL API handling user queries efficiently with real-time updates.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.8.0",
+    "graphql": "^15.6.0",
+    "mongoose": "^6.4.1",
+    "dotenv": "^16.0.0",
+    "subscriptions-transport-ws": "^0.11.0",
+    "graphql-subscriptions": "^1.2.0"
+  }
+}
